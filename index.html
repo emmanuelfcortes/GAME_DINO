@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Simple Dino Game</title>
+        <link rel="stylesheet" type="text/css" href="./includes/index.css">
+        <script type="module" src="./includes/index.js" defer></script>
+        
+        <!-- defer is used to indicate that the index.js file only will be load
+        after the html page has been loaded. -->
+       
+    </head>
+    <body>
+        <div id="quadro_principal" class="quadro_principal">
+            
+            <div id="fundo" class="fundo animacao">
+               <!-- <img class="fundo" src="./includes/img/fundo.bmp">-->
+            </div>
+            <div id="pontuacao" class="pontuacao">
+                <h2>PONTUAÇÃO: <span id="pontos"></span></h2>
+                <h2> HISCORE: <span id="hiscore">0</span></h2>
+
+            </div>
+            <div id="posicaoDinossauro" class="posicao_dinossauro">
+                <img class="dinossauro" src="./includes/img/dinossauro.gif">
+            </div>
+        </div>
+    </body> 
+    <!--
+
+        <script type="text/javascript" src="./includes/index.js"></script>
+    -->
+</html>

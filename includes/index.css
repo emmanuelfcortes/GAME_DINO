@@ -1,0 +1,55 @@
+@keyframes slideright {
+    from{
+        background-position: -7000%;
+    }
+    to{
+        background-position: 0;
+    }
+}
+
+.fundo{
+    top: 0;
+    bottom: 5vh;
+    z-index: 1;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: url("../includes/img/fundo.bmp");
+    
+}
+.animacao{
+    animation: slideright 50s infinite linear;
+}
+.pontuacao{
+    position: absolute;
+    z-index: 2;
+    left: 75vw;
+    
+    
+}
+.dinossauro{
+    width: 8vw;
+    height: 16vh;
+    max-width: 60px;
+    max-height: 120px;
+    
+}
+.posicao_dinossauro{
+    z-index: 2;
+    position: absolute;
+    left: 1vw;
+    margin-top: 42vh;
+}
+.cacto_simples{
+    width: 8vw;
+    height: 16vh;
+    max-width: 60px;
+    max-height: 120px;
+}
+.posicao_cacto{
+    z-index: 2;
+    position: absolute;
+    /*left: 60vw;*/
+    margin-top: 42vh;
+}
